@@ -1,0 +1,23 @@
+.board{
+    font-weight: 700;
+
+}
+
+.dev-board{
+    margin-left: -34px;
+}
+.check{
+    margin-right: -18px;
+}
+.body{
+    background-color: azure;
+    max-width: 1480px;
+    margin:auto;
+}
+
+.padding{
+    background-color: rgb(203, 203, 241);
+}
+.middle-padding{
+    background-color: rgb(160, 156, 224);
+}
