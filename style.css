@@ -9,6 +9,7 @@
 .check{
     margin-right: -18px;
 }
+
 .body{
     /* background-color: azure; */
     max-width: 1480px;
@@ -20,4 +21,9 @@
 }
 .middle-padding{
     background-color: rgb(160, 156, 224);
+}
+
+/* hr color */
+.hr{
+    color: neutral-content;
 }
