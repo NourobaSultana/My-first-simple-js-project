@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body class="body bg-base-200">
+
+    <section class="background-set">
     <header>
         <!-- navbar section -->
         <section>
@@ -30,7 +32,7 @@
                  
                 <div class="flex items-center">
 
-                    <div class="check">
+                    <!-- <div class="check">
                          <img class="w-9/12" src="assets/checkbox.png" alt="">
                     </div>
 
@@ -40,7 +42,9 @@
 
                     <div>
                         <button><img src="assets/theme-btn.png" alt=""></button>
-                    </div>
+                    </div> -->
+
+                    <button id="back-button" class="btn back-btn btn-primary">Back to desk</button>
                  
                   
                 </div>
@@ -55,31 +59,55 @@
                 <h2 class="font-bold text-xl">Question-1: What are the different ways to select an element in the DOM?</h2>
                 <hr class="mt-2 ">
                 <p class="mt-4 text-
-                neutral-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur beatae atque suscipit harum rerum culpa voluptatem, quisquam molestias est.</p>
+                neutral-content">
+             <ol>
+                <li>getElementById()</li>
+                <li>getElementsByTagName()</li>
+                <li>getElementsByClassName()</li>
+                <li>getElementsByName()</li>
+                <li>querySelector()</li>
+                <li>querySelectorAll()</li>
+             </ol>
+            </p>
             </div>
 
             <div class="bg-base-100 p-6 rounded mt-10">
                 <h2 class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText and textContent</h2>
                 <hr class="mt-2 ">
                 <p class="mt-4 text-
-                neutral-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur beatae atque suscipit harum rerum culpa voluptatem, quisquam molestias est.</p>
+                neutral-content">
+                <ol>
+                    <li>InnerHTML: It shows us what exactly have in html tag in our code.</li>
+                    <li>InnerText: It shows us what exactly have in our selected id have. <li>
+                    <li>InnerContent: It sets the content of the tag as plain text.</li>
+                </ol>
+            
+            </p>
             </div>
 
             <div class="bg-base-100 p-6 rounded mt-10">
                 <h2 class="font-bold text-xl">Question-3: What is event delegation in the DOM?</h2>
                 <hr class="mt-2 ">
                 <p class="mt-4 text-
-                neutral-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur beatae atque suscipit harum rerum culpa voluptatem, quisquam molestias est.</p>
+                neutral-content">
+                EvenDelegation is a technique in js where a parent element handles events for its child elements, even is the children are added dynamically after the page loads.
+            </p>
             </div>
 
             <div class="bg-base-100 p-6 rounded mt-10">
                 <h2 class="font-bold text-xl">Question-4: What is event bubblink in the DOM?</h2>
                 <hr class="mt-2 ">
                 <p class="mt-4 text-
-                neutral-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur beatae atque suscipit harum rerum culpa voluptatem, quisquam molestias est.</p>
+                neutral-content">
+                Event Bubbling is a concept when we call a event and that event bubbles up to its parent and ancestor elements in the dom until it gets too the root element.
+                </p>
             </div>
            
         </section>
     </main>
+
+
+</section>
+<script src="Js-File/main.js"></script>
 </body>
 </html>

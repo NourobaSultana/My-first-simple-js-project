@@ -9,8 +9,10 @@
 .check{
     margin-right: -18px;
 }
-
 .body{
+    /* background-color: blueviolet; */
+}
+.background-set{
     /* background-color: azure; */
     max-width: 1480px;
     margin:auto;
